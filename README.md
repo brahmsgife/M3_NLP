@@ -9,7 +9,7 @@ In this repository you will find the 3 tasks of the Feedback Moment of Module 3 
 
 ### Installing
 Please clone the repository and make sure to install the requirements and create the environment.
-* using: requirements.txt ;)
+* using: pip install -r requirements.txt
 
 
 ### Executing program
@@ -22,11 +22,14 @@ Please make sure you have your own HuggingFace, WandB, Google-Cloud Translate an
 
 * Note: in the case of task 3, please modify the variable "api_key" and "api_url" in line 270.
 
+### Results Task 1
+
+
 ### Results Task 2
 * Loss plots with the full data set:
 ![Screenshot](graph_train_loss.png)
 ![Screenshot](graph2_train_loss.png)
-View the graphs here: https://wandb.ai/brahmsgife/uncategorized/runs/19oc1xh2?workspace=user-brahmsgife
+* View the graphs here: https://wandb.ai/brahmsgife/uncategorized/runs/19oc1xh2?workspace=user-brahmsgife
 
 ### Results Task 3
 ![Screenshot](result_task3.png)
