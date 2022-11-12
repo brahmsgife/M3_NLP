@@ -23,7 +23,12 @@ Please make sure you have your own HuggingFace, WandB, Google-Cloud Translate an
 * Note: in the case of task 3, please modify the variable "api_key" and "api_url" in line 270.
 
 ### Results Task 2
+* Loss plots with the full data set:
 ![Screenshot](graph_train_loss.png)
+![Screenshot](graph2_train_loss.png)
+View the graphs here: https://wandb.ai/brahmsgife/uncategorized/runs/19oc1xh2?workspace=user-brahmsgife
+
+### Results Task 3
 
 ## Author
 
