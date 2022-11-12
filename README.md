@@ -23,7 +23,7 @@ Please make sure you have your own HuggingFace, WandB, Google-Cloud Translate an
 * Note: in the case of task 3, please modify the variable "api_key" and "api_url" in line 270.
 
 ### Results Task 1
-
+![Screenshot](result_task1.png)
 
 ### Results Task 2
 * Loss plots with the full data set:
