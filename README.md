@@ -33,7 +33,7 @@ Please make sure you have your own HuggingFace, WandB, Google-Cloud Translate an
 
 ### Results Task 3
 ![Screenshot](result_task3.png)
-* View in Colab here: https://colab.research.google.com/drive/1t-TJa6NlHPafyUm0stEWfirNurV7PMu_?usp=sharing
+* View in Colab here: https://drive.google.com/file/d/1lBVsPNP-zoG2Phg3Q2IKriy0drYwf8Ex/view?usp=sharing
 
 
 ## Author
