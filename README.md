@@ -22,6 +22,9 @@ Please make sure you have your own HuggingFace, WandB, Google-Cloud Translate an
 
 * Note: in the case of task 3, please modify the variable "api_key" and "api_url" in line 270.
 
-## Authors
+### Results Task 2
+
+
+## Author
 
 Abraham Gil Félix
