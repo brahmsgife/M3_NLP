@@ -8,14 +8,14 @@ In this repository you will find the 3 tasks of the Feedback Moment of Module 3 
 
 
 ### Installing
-Please clone the repository and make sure to install the requirements
-* using requirements.txt ;)
+Please clone the repository and make sure to install the requirements and create the environment.
+* using: requirements.txt ;)
 
 
 ### Executing program
 
 Run the script run.py, it contains everything necessary for the correct execution of the 3 tasks.
-* using py run.py
+* using: py run.py
 
 ### Recommendations
 Please make sure you have your own HuggingFace, WandB, Google-Cloud Translate and IBM Watson Language Translator tokens.
@@ -29,6 +29,8 @@ Please make sure you have your own HuggingFace, WandB, Google-Cloud Translate an
 View the graphs here: https://wandb.ai/brahmsgife/uncategorized/runs/19oc1xh2?workspace=user-brahmsgife
 
 ### Results Task 3
+![Screenshot](result_task3.png)
+
 
 ## Author
 
