@@ -231,7 +231,8 @@ def train_base_model(num_train_epochs, optimizer, train_dataloader, model):
     
     return trainer.train()
 
-def NER():
+def NER(): # I would recommend making this into a class, and then have all the functions involved be members of that class.
+    # see here for example: https://www.dataquest.io/blog/using-classes-in-python/
     """
     Main function Task2.
     """
@@ -255,7 +256,7 @@ name_base_model = 'bert-base-cased'
 tokenizer = AutoTokenizer.from_pretrained(name_base_model) 
 
 N_EXAMPLES_TO_TRAIN = 543 # 10% of original dataset
-N_EXAMPLES_TO_EVAL = 92 # 10% of original dataset
+N_EXAMPLES_TO_EVAL = 92 # 10% of original dataset. # constants like these should all be at top of file 
 
 tokenized_datasets = get_tokenized_datasets(raw_datasets)
 small_train_dataset = get_small_train_dataset(tokenized_datasets, N_EXAMPLES_TO_TRAIN)
@@ -264,6 +265,7 @@ small_eval_dataset = get_small_eval_dataset(tokenized_datasets, N_EXAMPLES_TO_EV
 data_collator = DataCollatorForTokenClassification(tokenizer=tokenizer)
 
 
+# recommend splitting into three files, one for each class, with a class for each task's main functionality! 
 # ------------------------------------------------------- Task 3 ------------------------------------------------------- 
 def load_spanish_texts(path):
     spanish_texts = []
