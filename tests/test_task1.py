@@ -1,5 +1,7 @@
 import sys
 sys.path.insert(0, '../src')
+import warnings
+warnings.filterwarnings("ignore")
 import unittest
 import pytest
 from task1 import SentimentAnalysis

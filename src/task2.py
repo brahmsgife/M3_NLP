@@ -183,7 +183,7 @@ class NER:
         trainer.log_metrics('eval', metrics)
         trainer.save_metrics('eval', metrics)
 
-        with open(r'C:\Users\HP456787\Documents\ITESM\7MO SEM\InteligenciaArtificialAvanzadaII\M3_NLP\bert-finetuned-ner\all_results.json') as file:
+        with open('../M3_NLP/bert-finetuned-ner/all_results.json') as file:
             results_json = json.load(file)
 
         return results_json
