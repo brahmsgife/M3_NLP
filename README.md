@@ -32,17 +32,8 @@ pytest -v test_task1.py
 Please make sure you have your own HuggingFace, WandB, Google-Cloud Translate and IBM Watson Language Translator tokens.
 
 
-### Results Task 1
-![Screenshot](result_task1.png)
-
-### Results Task 2
-* Loss plots with the full data set:
-![Screenshot](graph_train_loss.png)
-![Screenshot](graph2_train_loss.png)
-* View the graphs here: https://wandb.ai/brahmsgife/uncategorized/runs/19oc1xh2?workspace=user-brahmsgife
-
-### Results Task 3
-![Screenshot](result_task3.png)
+### Notes: 
+In case of task 2, the graphs of train set error and test rate during training, can be seen in this workspace: 
 
 
 ## Author
