@@ -33,7 +33,7 @@ pytest -v test_task1.py
 Please make sure you have your own HuggingFace, WandB, Google-Cloud Translate and IBM Watson Language Translator tokens.
 
 ### Notes: 
-In case of task 2, the graphs of train set error and test rate during training, can be seen in this workspace: 
+In case of task 2, the graphs of train set error and test rate during training, can be seen in this workspace: https://wandb.ai/brahmsgife/M3_NLP?workspace=user-brahmsgife
 
 ## Author
 Abraham Gil Félix
