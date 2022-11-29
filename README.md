@@ -28,6 +28,7 @@ To run tests, from M3_NLP/tests, call any of the scripts. Here is an example:
 ```
 pytest -v test_task1.py
 ```
+* Remark: the paths were declared with the help of relative paths, please make sure that in your case they work correctly when executing the tests.
 
 ### Recommendations
 Please make sure you have your own HuggingFace, WandB, Google-Cloud Translate and IBM Watson Language Translator tokens.
