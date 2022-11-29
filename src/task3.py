@@ -19,11 +19,11 @@ class Translator():
     Class of task 3
     """
     # Class variables
-    os.environ['GOOGLE_APPLICATION_CREDENTIALS']='../M3_NLP/m3-nlp-e9d4ac58420b.json'
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS']='../m3-nlp-e9d4ac58420b.json'
 
 
-    def __init__(self,path1='../M3_NLP/es_corpus.txt', 
-                path2='../M3_NLP/en_corpus.txt'):
+    def __init__(self,path1='../es_corpus.txt', 
+                path2='../en_corpus.txt'):
         self.path1 = path1
         self.path2 = path2
 

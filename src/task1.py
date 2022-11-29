@@ -9,7 +9,7 @@ class SentimentAnalysis:
     Class of taks1
     """
     def __init__(self, model_name='nlptown/bert-base-multilingual-uncased-sentiment',
-                path='../M3_NLP/tiny_movie_reviews_dataset.txt'):
+                path='../tiny_movie_reviews_dataset.txt'):
         self.path = path
         self.model_name = model_name
 
